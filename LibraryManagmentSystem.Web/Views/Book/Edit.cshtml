@@ -1,0 +1,96 @@
+﻿@model LibraryManagmentSystem.Application.Commands.BookCommands.UpdateBookCommand
+@{
+    
+    Layout = "_LayoutWithoutNavBar";
+}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="mb-0">Edit Book</h2>
+                </div>
+                <div class="card-body">
+                    <form action="/Book/Edit" method="post">
+                     @Html.HiddenFor(model => model.Id)
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Title" class="form-label"></label>
+                            <input asp-for="Title" class="form-control" placeholder="Enter book title" />
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Author" class="form-label"></label>
+                            <input asp-for="Author" class="form-control" placeholder="Enter author's name" />
+                            <span asp-validation-for="Author" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="ISBN" class="form-label"></label>
+                            <input asp-for="ISBN" class="form-control" placeholder="Enter ISBN number" />
+                            <span asp-validation-for="ISBN" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="PublishedDate" class="form-label"></label>
+                            <input asp-for="PublishedDate" class="form-control" type="date" placeholder="Select published date" />
+                            <span asp-validation-for="PublishedDate" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="NumberOfCopies" class="form-label"></label>
+                            <input asp-for="NumberOfCopies" class="form-control" placeholder="Enter number of copies" />
+                            <span asp-validation-for="NumberOfCopies" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">Save Changes</button>
+                        </div>
+                        <div class="d-flex justify-content-start mt-3">
+                            <a href="@Url.Action("Index", "Book")" class="btn btn-secondary">
+                                <i class="bi bi-arrow-left"></i> Back to List
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.querySelector('form').addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        const yourData = {
+            Id: document.querySelector('input[name="Id"]').value,
+            Title: document.querySelector('input[name="Title"]').value,
+            Author: document.querySelector('input[name="Author"]').value,
+            ISBN: document.querySelector('input[name="ISBN"]').value,
+            PublishedDate: document.querySelector('input[name="PublishedDate"]').value,
+            NumberOfCopies: document.querySelector('input[name="NumberOfCopies"]').value
+        };
+
+        fetch('/Book/Edit', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(yourData)
+        })
+        .then(response => {
+            if (response.ok) {
+                window.location.href = '/Book'; // Redirect on success
+            } else {
+                console.error('Error:', response.statusText);
+                // Handle error (e.g., show a message)
+            }
+        })
+        .catch(error => console.error('Fetch error:', error));
+    });
+</script>
+
+}

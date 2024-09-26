@@ -1,0 +1,12 @@
+﻿@model Logout
+
+@{
+    ViewData["Title"] = "Logout";
+    Layout = "_Layout"; // Change this to your layout file as needed
+}
+
+<div class="container">
+    <h2>Logout</h2>
+    <p>You have been logged out successfully.</p>
+    <a asp-controller="Home" asp-action="Login" class="btn btn-primary">Login Again</a>
+</div>

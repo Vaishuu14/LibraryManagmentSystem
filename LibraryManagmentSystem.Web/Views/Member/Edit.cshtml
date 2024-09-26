@@ -1,0 +1,97 @@
+﻿@model LibraryManagmentSystem.Application.Commands.MemberCommands.UpdateMemberCommand
+
+@{
+    Layout = "_LayoutWithoutNavBar";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="mb-0">Edit Member</h2>
+                </div>
+                <div class="card-body">
+                    <form action="/Member/Edit" method="post">
+                        @Html.HiddenFor(model => model.Id)
+
+                        <div class="form-group mb-3">
+                            <label asp-for="FirstName" class="form-label"></label>
+                            <input asp-for="FirstName" class="form-control" placeholder="First Name" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="LastName" class="form-label"></label>
+                            <input asp-for="LastName" class="form-control" placeholder="Last Name" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Email" class="form-label"></label>
+                            <input asp-for="Email" class="form-control" placeholder="Email" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="ContactNumber" class="form-label"></label>
+                            <input asp-for="ContactNumber" class="form-control" placeholder="Contact Number" />
+                            <span asp-validation-for="ContactNumber" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="DateOfMembership" class="form-label"></label>
+                            <input asp-for="DateOfMembership" class="form-control" placeholder="Date of Membership" />
+                            <span asp-validation-for="DateOfMembership" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">Save Changes</button>
+                        </div>
+                        <div class="d-flex justify-content-start mt-3">
+                            <a href="@Url.Action("Index", "Member")" class="btn btn-secondary">
+                                <i class="bi bi-arrow-left"></i> Back to List
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.querySelector('form').addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        const memberData = {
+            Id: document.querySelector('input[name="Id"]').value,
+            FirstName: document.querySelector('input[name="FirstName"]').value,
+            LastName: document.querySelector('input[name="LastName"]').value,
+            Email: document.querySelector('input[name="Email"]').value,
+            ContactNumber: document.querySelector('input[name="ContactNumber"]').value,
+            DateOfMembership: document.querySelector('input[name="DateOfMembership"]').value
+        };
+
+        fetch('/Member/Edit', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(memberData)
+        })
+        .then(response => {
+            if (response.ok) {
+                window.location.href = '/Member'; // Redirect on success
+            } else {
+                console.error('Error:', response.statusText);
+                // Handle error (e.g., show a message)
+            }
+        })
+        .catch(error => console.error('Fetch error:', error));
+    });
+</script>
+
+}

@@ -1,0 +1,46 @@
+﻿@model LibraryManagmentSystem.Domain.Entities.Book
+
+@{
+    ViewData["Title"] = "Book Details";
+     Layout = "_LayoutWithoutNavBar";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h2 class="mb-0">@ViewData["Title"]</h2>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">@Model.Title</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-3 font-weight-bold">
+                    Author
+                </dt>
+                <dd class="col-sm-9">
+                    @Model.Author
+                </dd>
+                
+                <dt class="col-sm-3 font-weight-bold">
+                    ISBN
+                </dt>
+                <dd class="col-sm-9">
+                    @Model.ISBN
+                </dd>
+                
+                <!-- Add more details if needed -->
+                <dt class="col-sm-3 font-weight-bold">
+                    Published Date
+                </dt>
+                <dd class="col-sm-9">
+                    @Model.PublishedDate.ToString("MMMM dd, yyyy")
+                </dd>
+
+               
+            </dl>
+        </div>
+        <div class="card-footer">
+            <a asp-action="MemberDashboard" class="btn btn-secondary">Back to List</a>
+        </div>
+    </div>
+</div>

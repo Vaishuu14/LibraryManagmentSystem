@@ -1,0 +1,62 @@
+﻿@model LibraryManagmentSystem.Application.DTOs.MemberDto
+
+@{
+    ViewBag.Title = "Delete Member";
+    Layout = "_LayoutWithoutNavBar";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/kTcJOzp3gjNz5eR1m9pKsDxAn1k1YO8s5xR5URmfMZSBsRl7AK1q8XSO98lTY7iJOV5FvDJphFLKg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/css/delete-member.css" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Delete Member</h2>
+
+        <div class="alert alert-warning text-center" role="alert">
+            <h4 class="alert-heading">Are you sure you want to delete this member?</h4>
+            <p>This action cannot be undone.</p>
+        </div>
+
+        <div class="card shadow mb-4">
+            <div class="card-header bg-danger text-white">
+                <i class="fas fa-user-times"></i> Member Details
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-3">First Name</dt>
+                    <dd class="col-sm-9">@Model.FirstName</dd>
+                    <dt class="col-sm-3">Last Name</dt>
+                    <dd class="col-sm-9">@Model.LastName</dd>
+                    <dt class="col-sm-3">Email</dt>
+                    <dd class="col-sm-9">@Model.Email</dd>
+                    <dt class="col-sm-3">Contact Number</dt>
+                    <dd class="col-sm-9">@Model.ContactNumber</dd>
+                    <dt class="col-sm-3">Membership Date</dt>
+                    <dd class="col-sm-9">@Model.DateOfMembership.ToString("yyyy-MM-dd")</dd>
+                </dl>
+            </div>
+        </div>
+
+        <form asp-action="Delete" method="post" asp-route-id="@Model.Id">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="id" value="@Model.Id" />
+            <div class="text-center">
+                <button type="submit" class="btn btn-danger">
+                    <i class="fas fa-trash-alt"></i> Delete
+                </button>
+                <a href="@Url.Action("Index", "Member")" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Cancel
+                </a>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

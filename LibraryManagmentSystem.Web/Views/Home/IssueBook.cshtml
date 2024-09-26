@@ -1,0 +1,29 @@
+﻿@model LibraryManagmentSystem.Domain.Entities.Book
+
+@{
+    ViewData["Title"] = "Issue Book";
+}
+
+<h2>Issue Book</h2>
+
+<div class="card mb-3">
+    <div class="card-header">
+        <h3>@Model.Title</h3>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Author</dt>
+            <dd class="col-sm-9">@Model.Author</dd>
+            <dt class="col-sm-3">ISBN</dt>
+            <dd class="col-sm-9">@Model.ISBN</dd>
+           
+        </dl>
+        <form asp-action="IssueBook" method="post">
+            <input type="hidden" name="bookId" value="@Model.Id" />
+            <button type="submit" class="btn btn-primary">Issue Book</button>
+        </form>
+    </div>
+    <div class="card-footer">
+        <a asp-action="MemberDashboard" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>

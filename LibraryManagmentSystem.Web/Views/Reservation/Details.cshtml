@@ -1,0 +1,43 @@
+﻿@model LibraryManagmentSystem.Application.DTOs.ReservationDto
+
+@{
+    ViewData["Title"] = "Reservation Details";
+    Layout = "_LayoutWithoutNavBar";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h1 class="mb-0">Reservation Details</h1>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Book Title: @Model.BookTitle</h4>
+                    <hr />
+                    <dl class="row">
+                        <dt class="col-sm-4 font-weight-bold">
+                            Member Name:
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Model.MemberName
+                        </dd>
+                        <dt class="col-sm-4 font-weight-bold">
+                            Reserved Date:
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Model.ReservedDate.ToShortDateString()
+                        </dd>
+                        <dt class="col-sm-4 font-weight-bold">
+                            Expiration Date:
+                        </dt>
+                        <dd class="col-sm-8">
+                            @Model.ExpirationDate?.ToShortDateString() ?? "N/A"
+                        </dd>
+                    </dl>
+                    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

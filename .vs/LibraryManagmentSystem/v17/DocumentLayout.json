@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{716F57E2-209D-47E9-8733-E7628A5EDCC6}|LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{716F57E2-209D-47E9-8733-E7628A5EDCC6}|LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj|solutionrelative:librarymanagmentsystem.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D39E83-BDAE-45AF-889B-5AFF96172645}|LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D39E83-BDAE-45AF-889B-5AFF96172645}|LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj|solutionrelative:librarymanagmentsystem.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D39E83-BDAE-45AF-889B-5AFF96172645}|LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.webapi\\jwttokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D39E83-BDAE-45AF-889B-5AFF96172645}|LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj|solutionrelative:librarymanagmentsystem.webapi\\jwttokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A7858F-AD11-4AF1-BBBD-CC816BC094C3}|LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.domain\\interfaces\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A7858F-AD11-4AF1-BBBD-CC816BC094C3}|LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj|solutionrelative:librarymanagmentsystem.domain\\interfaces\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{716F57E2-209D-47E9-8733-E7628A5EDCC6}|LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.infrastructure\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{716F57E2-209D-47E9-8733-E7628A5EDCC6}|LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj|solutionrelative:librarymanagmentsystem.infrastructure\\repositories\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A7858F-AD11-4AF1-BBBD-CC816BC094C3}|LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.domain\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A7858F-AD11-4AF1-BBBD-CC816BC094C3}|LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj|solutionrelative:librarymanagmentsystem.domain\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{716F57E2-209D-47E9-8733-E7628A5EDCC6}|LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{716F57E2-209D-47E9-8733-E7628A5EDCC6}|LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj|solutionrelative:librarymanagmentsystem.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D39E83-BDAE-45AF-889B-5AFF96172645}|LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E1D39E83-BDAE-45AF-889B-5AFF96172645}|LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj|solutionrelative:librarymanagmentsystem.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.web\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D39E83-BDAE-45AF-889B-5AFF96172645}|LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D39E83-BDAE-45AF-889B-5AFF96172645}|LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj|solutionrelative:librarymanagmentsystem.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D39E83-BDAE-45AF-889B-5AFF96172645}|LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.webapi\\ijwttokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D39E83-BDAE-45AF-889B-5AFF96172645}|LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj|solutionrelative:librarymanagmentsystem.webapi\\ijwttokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D39E83-BDAE-45AF-889B-5AFF96172645}|LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E1D39E83-BDAE-45AF-889B-5AFF96172645}|LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj|solutionrelative:librarymanagmentsystem.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A7858F-AD11-4AF1-BBBD-CC816BC094C3}|LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A7858F-AD11-4AF1-BBBD-CC816BC094C3}|LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj|solutionrelative:librarymanagmentsystem.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1D39E83-BDAE-45AF-889B-5AFF96172645}|LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj|c:\\users\\austraxpc46\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.webapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1D39E83-BDAE-45AF-889B-5AFF96172645}|LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj|solutionrelative:librarymanagmentsystem.webapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\Interfaces\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Domain\\Interfaces\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\Interfaces\\IBookRepository.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Domain\\Interfaces\\IBookRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAMwBEAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:30:33.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Infrastructure\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Infrastructure\\Repositories\\BookRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:29:20.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JwtTokenManager.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.WebAPI\\JwtTokenManager.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.WebAPI\\JwtTokenManager.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.WebAPI\\JwtTokenManager.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.WebAPI\\JwtTokenManager.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAqwDEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:46:50.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAADwv1kAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:51:45.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.WebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.WebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA2wC0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:39:50.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAArwDMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:23:45.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAACgAAAAAAAAAAAAmwDwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T11:41:21.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\Repositories\\MemberRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Infrastructure\\Repositories\\MemberRepository.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\Repositories\\MemberRepository.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Infrastructure\\Repositories\\MemberRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:30:50.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMemberRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\Interfaces\\IMemberRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Domain\\Interfaces\\IMemberRepository.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\Interfaces\\IMemberRepository.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Domain\\Interfaces\\IMemberRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:31:16.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\appsettings.json",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-26T13:22:54.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Program.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Program.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAiwJAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T13:21:35.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.WebAPI\\appsettings.json",
+              "RelativeToolTip": "LibraryManagmentSystem.WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-26T08:00:14.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.WebAPI\\Program.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.WebAPI\\Program.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAiwC0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T06:45:46.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Home\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Home\\AdminDashboard.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T13:18:04.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Controllers\\BookController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAUwCsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T12:32:00.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IJwtTokenManager.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.WebAPI\\IJwtTokenManager.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.WebAPI\\IJwtTokenManager.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.WebAPI\\IJwtTokenManager.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.WebAPI\\IJwtTokenManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:49:19.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LibraryManagmentSystem.WebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-26T11:46:25.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T11:25:24.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.WebAPI\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.WebAPI\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\Austraxpc46\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.WebAPI\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LibraryManagmentSystem.WebAPI\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T10:57:19.779Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

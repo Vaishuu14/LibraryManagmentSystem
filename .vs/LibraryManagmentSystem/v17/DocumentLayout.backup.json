@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vaishnavi S\\source\\repos\\new\\LibraryManagmentSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\book\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.web\\wwwroot\\js\\book.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\wwwroot\\js\\book.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.web\\views\\home\\memberdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\views\\home\\memberdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|c:\\users\\vaishnavi s\\source\\repos\\new\\librarymanagmentsystem\\librarymanagmentsystem.web\\wwwroot\\js\\reservation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6344D6C4-FFBC-4EE7-93BE-98A64D8371D3}|LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj|solutionrelative:librarymanagmentsystem.web\\wwwroot\\js\\reservation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MemberDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\MemberDashboard.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Home\\MemberDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Home\\MemberDashboard.cshtml",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Home\\MemberDashboard.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T03:02:28.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "reservation.js",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\js\\reservation.js",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\wwwroot\\js\\reservation.js",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\js\\reservation.js",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\wwwroot\\js\\reservation.js",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAwwKQAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-25T18:47:17.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "book.js",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\js\\book.js",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\wwwroot\\js\\book.js",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\wwwroot\\js\\book.js",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\wwwroot\\js\\book.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-25T17:53:59.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Vaishnavi S\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Book\\Index.cshtml",
+              "RelativeDocumentMoniker": "LibraryManagmentSystem.Web\\Views\\Book\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Vaishnavi S\\source\\repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\Views\\Book\\Index.cshtml",
+              "RelativeToolTip": "LibraryManagmentSystem.Web\\Views\\Book\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-25T17:53:47.518Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+﻿/* details-member.css */
+.card-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.card-body dl dt {
+    font-weight: bold;
+}
+
+.card-body dl dd {
+    margin-bottom: 1rem;
+}
+
+.btn i {
+    margin-right: 5px;
+}

@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Management</title>
+    <link rel="stylesheet" href="~/css/reservation.css" />
+    <script src="~/js/reservation.js" defer></script> <!-- Use defer to load script after parsing -->
+</head>
+<body>
+    <h1>Reservation Management</h1>
+
+    <h3>Add New Reservation</h3>
+    <form id="addReservationForm" onsubmit="addReservation(); return false;">
+        <input type="number" id="add-bookId" placeholder="Book ID" required>
+        <input type="text" id="add-bookTitle" placeholder="Book Title" required>
+        <input type="number" id="add-memberId" placeholder="Member ID" required>
+        <input type="text" id="add-memberName" placeholder="Member Name" required>
+        <input type="date" id="add-reservedDate" required>
+        <input type="date" id="add-expirationDate">
+        <input type="submit" value="Add Reservation">
+    </form>
+
+    <div id="editForm" style="display: none;">
+        <h3>Edit Reservation</h3>
+        <form onsubmit="updateReservation(); return false;">
+            <input type="hidden" id="edit-id">
+            <input type="number" id="edit-bookId" placeholder="Book ID" required>
+            <input type="text" id="edit-bookTitle" placeholder="Book Title" required>
+            <input type="number" id="edit-memberId" placeholder="Member ID" required>
+            <input type="text" id="edit-memberName" placeholder="Member Name" required>
+            <input type="date" id="edit-reservedDate" required>
+            <input type="date" id="edit-expirationDate">
+            <input type="submit" value="Save">
+            <a href="javascript:void(0);" onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <p id="counter"></p>
+
+    <h3>Current Reservations</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Book Title</th>
+                <th>Member Name</th>
+                <th>Reserved Date</th>
+                <th>Expiration Date</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="reservations"></tbody>
+    </table>
+
+    <script>
+        getReservations(); // Call to load reservations when the page is ready
+    </script>
+</body>
+</html>

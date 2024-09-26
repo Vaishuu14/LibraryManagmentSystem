@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Dashboard - Book List</title>
+    <link rel="stylesheet" href="~/css/memberDashboard.css" />
+    <script src="~/js/book.js" defer></script> <!-- Ensure book.js is loaded -->
+</head>
+<body>
+    <h1>Member Dashboard</h1>
+
+    <h3>Available Books</h3>
+    <p id="counter"></p>
+    <table>
+        <thead>
+            <tr>
+                <th>Book Title</th>
+                <th>Author</th>
+                <th>Publication Date</th>
+                <th>Available Copies</th>
+            </tr>
+        </thead>
+        <tbody id="books"></tbody> <!-- This will be populated by book.js -->
+    </table>
+
+    <script>
+        // Call to load books when the page is ready
+        getBooks();
+    </script>
+</body>
+</html>

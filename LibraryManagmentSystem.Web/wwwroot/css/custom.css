@@ -1,0 +1,59 @@
+﻿/* custom.css */
+
+.book-nav-bar {
+    background-color: #343a40; /* Change this to your desired background color */
+}
+
+    .book-nav-bar .nav-link {
+        color: #ffffff; /* Change this to your desired text color */
+    }
+ .book-nav-bar .nav-link:hover {
+            color: #ffcc00; /* Change this to your desired hover text color */
+        }
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #fff;
+    }
+
+
+.table th, .table td {
+    text-align: center;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+.table-dark th, .table-dark td {
+    color: #f8f9fa;
+}
+.custom-container {
+    max-width: 800px; /* Set your desired width */
+    margin: 0 auto; /* Center the container */
+}
+
+
+
+/*member*/
+
+.member-nav-bar {
+    background-color: #343a40;
+    
+}
+    .member-nav-bar .nav-link {
+        color: #ffffff; /* Change this to your desired text color */
+    }
+
+        .member-nav-bar .nav-link:hover {
+            color: #ffcc00; /* Change this to your desired hover text color */
+        }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #fff;
+    }

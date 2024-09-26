@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="text-center bg-image">
+    <h1 class="display-4 fw-bold">Welcome to the Library Management System</h1>
+
+   
+    <!-- Links for login and registration -->
+    <div class="mt-4">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <p class="lead">Welcome, @User.Identity.Name!</p>
+            <a class="btn btn-warning" href="@Url.Action("Logout", "Home")">Logout</a>
+        }
+        else
+        {
+            <a class="btn btn-primary fw-bold" href="@Url.Action("Login", "Home")">Login</a>
+            <a class="btn btn-secondary fw-bold" href="@Url.Action("Registration", "Home")">Register</a>
+        }
+    </div>
+</div>

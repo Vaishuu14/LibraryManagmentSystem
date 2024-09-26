@@ -1,0 +1,200 @@
+﻿@model LibraryManagmentSystem.Domain.Entities.AdminDashboardView
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "_LayoutWithoutNavBar";
+}
+
+<link rel="stylesheet" href="~/css/custom.css" />
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+            <div class="position-sticky">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-target="dashboard-content">
+                            <i class="bi bi-house-door"></i> Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-target="book-management-content">
+                            <i class="bi bi-book"></i> Book
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-target="member-management-content">
+                            <i class="bi bi-person"></i> Member
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-target="reservation-management-content">
+                            <i class="bi bi-calendar"></i> Reservation
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-target="logout-content">
+                            <i class="bi bi-box-arrow-right"></i> Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="col-md-9 ms-sm-auto col-lg-10 px-4 content">
+            <div id="dashboard-content" class="content-section active">
+                <h2>@ViewData["Title"]</h2>
+                <p>Welcome back, Admin! Here's an overview of your library:</p>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card text-white bg-primary mb-3">
+                            <div class="card-header">Total Books</div>
+                            <div class="card-body">
+                                <h5 class="card-title">@Model.TotalBooks</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-white bg-success mb-3">
+                            <div class="card-header">Members</div>
+                            <div class="card-body">
+                                <h5 class="card-title">@Model.TotalMembers</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="book-management-content" class="content-section">
+                <h2>Book Management</h2>
+                <nav class="navbar navbar-expand-lg member-nav-bar mb-4">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bookNavbarNav" aria-controls="bookNavbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="bookNavbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Book" asp-action="Index">Books</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div id="member-management-content" class="content-section">
+                <h2>Member Management</h2>
+                <nav class="navbar navbar-expand-lg member-nav-bar mb-4">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#memberNavbarNav" aria-controls="memberNavbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="memberNavbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Member" asp-action="Create">Add Member</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Member" asp-action="Index">View Members</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Reservation Management Section -->
+            <div id="reservation-management-content" class="content-section">
+                <h2>Reservation Management</h2>
+                <nav class="navbar navbar-expand-lg member-nav-bar mb-4">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#reservationNavbarNav" aria-controls="reservationNavbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="reservationNavbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Reservation" asp-action="Create">Add Reservation</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Reservation" asp-action="Index">View Reservations</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- Logout Section -->
+            <div id="logout-content" class="content-section text-center">
+                <h2 class="text-danger mb-4"><i class="bi bi-box-arrow-right"></i> Logout</h2>
+                <p class="lead">Are you sure you want to logout?</p>
+                <form asp-controller="Home" asp-action="Logout" method="post" class="d-inline-block" style="margin-left: 0%;">
+                    <button type="submit" class="btn btn-lg btn-danger px-4 py-2" >
+                        <i class="bi bi-door-open"></i> Confirm Logout
+                    </button>
+                </form>
+            </div>
+        </main>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const sidebarLinks = document.querySelectorAll("#sidebar a.nav-link");
+            sidebarLinks.forEach(link => {
+                link.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const targetId = link.getAttribute("data-target");
+                    const contentSections = document.querySelectorAll(".content-section");
+                    contentSections.forEach(section => {
+                        section.classList.remove("active");
+                    });
+
+                    if (targetId === "book-management-content") {
+                        fetch("/Book")
+                            .then(response => response.text())
+                            .then(html => {
+                                document.getElementById(targetId).innerHTML = html;
+                                document.getElementById(targetId).classList.add("active");
+                                debugger;
+                                $.getScript("/js/book.js");
+                            })
+                            .catch(error => console.error('Error loading content:', error));
+                    } else if (targetId === "member-management-content") {
+                        fetch("/Member")
+                            .then(response => response.text())
+                            .then(html => {
+                                document.getElementById(targetId).innerHTML = html;
+                                document.getElementById(targetId).classList.add("active");
+                                 debugger;
+                                $.getScript("/js/member.js");
+                            })
+                            .catch(error => console.error('Error loading content:', error));
+                    } else if (targetId === "reservation-management-content") {
+                        fetch("/Reservation")
+                            .then(response => response.text())
+                            .then(html => {
+                                document.getElementById(targetId).innerHTML = html;
+                                document.getElementById(targetId).classList.add("active");
+                                 debugger;
+                                $.getScript("/js/reservation.js");
+                            })
+                            .catch(error => console.error('Error loading content:', error));
+                    } else if (targetId === "logout-content") {
+                        document.getElementById(targetId).classList.add("active");
+                    } else {
+                        document.getElementById(targetId).classList.add("active");
+                    }
+
+                    sidebarLinks.forEach(l => l.classList.remove("active"));
+                    link.classList.add("active");
+                });
+            });
+        });
+    </script>
+}

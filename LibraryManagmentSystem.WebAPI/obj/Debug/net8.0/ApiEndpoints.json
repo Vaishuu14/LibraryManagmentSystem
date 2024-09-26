@@ -1,0 +1,678 @@
+[
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.AuthController",
+    "Method": "GenerateToken",
+    "RelativePath": "api/Auth/token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.BookController",
+    "Method": "CreateBook",
+    "RelativePath": "api/Book/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "LibraryManagmentSystem.Application.Commands.BookCommands.CreateBookCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.BookController",
+    "Method": "DeleteBook",
+    "RelativePath": "api/Book/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.BookController",
+    "Method": "DetailsOfBook",
+    "RelativePath": "api/Book/details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.BookController",
+    "Method": "GetBooks",
+    "RelativePath": "api/Book/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.BookController",
+    "Method": "EditBook",
+    "RelativePath": "api/Book/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "LibraryManagmentSystem.Application.Commands.BookCommands.UpdateBookCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.MemberController",
+    "Method": "CreateMember",
+    "RelativePath": "api/Member/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "LibraryManagmentSystem.Application.Commands.MemberCommands.CreateMemberCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.MemberController",
+    "Method": "DeleteMember",
+    "RelativePath": "api/Member/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.MemberController",
+    "Method": "DetailsOfMember",
+    "RelativePath": "api/Member/details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.MemberController",
+    "Method": "GetMembers",
+    "RelativePath": "api/Member/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.MemberController",
+    "Method": "EditMember",
+    "RelativePath": "api/Member/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "LibraryManagmentSystem.Application.Commands.MemberCommands.UpdateMemberCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.ReservationController",
+    "Method": "CreateReservation",
+    "RelativePath": "api/Reservation/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "LibraryManagmentSystem.Application.Commands.ReservationCommands.CreateReservationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.ReservationController",
+    "Method": "DeleteReservation",
+    "RelativePath": "api/Reservation/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.ReservationController",
+    "Method": "DetailsOfReservation",
+    "RelativePath": "api/Reservation/details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.ReservationController",
+    "Method": "GetReservations",
+    "RelativePath": "api/Reservation/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.ReservationController",
+    "Method": "EditReservation",
+    "RelativePath": "api/Reservation/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "LibraryManagmentSystem.Application.Commands.ReservationCommands.UpdateReservationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.ValuesController",
+    "Method": "Get",
+    "RelativePath": "api/Values",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.BookController",
+    "Method": "Index",
+    "RelativePath": "Book",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.BookController",
+    "Method": "Create",
+    "RelativePath": "Book/Create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.BookController",
+    "Method": "Create",
+    "RelativePath": "Book/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Author",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ISBN",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PublishedDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumberOfCopies",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.BookController",
+    "Method": "Delete",
+    "RelativePath": "Book/Delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.BookController",
+    "Method": "DeleteConfirmed",
+    "RelativePath": "Book/Delete/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.BookController",
+    "Method": "Details",
+    "RelativePath": "Book/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.BookController",
+    "Method": "Edit",
+    "RelativePath": "Book/Edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "LibraryManagmentSystem.Application.Commands.BookCommands.UpdateBookCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.BookController",
+    "Method": "Edit",
+    "RelativePath": "Book/Edit/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.MemberController",
+    "Method": "Index",
+    "RelativePath": "Member",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.MemberController",
+    "Method": "Create",
+    "RelativePath": "Member/Create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.MemberController",
+    "Method": "Create",
+    "RelativePath": "Member/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContactNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateOfMembership",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.MemberController",
+    "Method": "Delete",
+    "RelativePath": "Member/Delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.MemberController",
+    "Method": "DeleteConfirmed",
+    "RelativePath": "Member/Delete/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.MemberController",
+    "Method": "Details",
+    "RelativePath": "Member/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.MemberController",
+    "Method": "Edit",
+    "RelativePath": "Member/Edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "LibraryManagmentSystem.Application.Commands.MemberCommands.UpdateMemberCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.MemberController",
+    "Method": "Edit",
+    "RelativePath": "Member/Edit/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.ReservationController",
+    "Method": "Index",
+    "RelativePath": "Reservation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.ReservationController",
+    "Method": "Create",
+    "RelativePath": "Reservation/Create",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.ReservationController",
+    "Method": "Create",
+    "RelativePath": "Reservation/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BookId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "BookTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MemberId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MemberName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ReservedDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "ExpirationDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.ReservationController",
+    "Method": "Delete",
+    "RelativePath": "Reservation/Delete/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.ReservationController",
+    "Method": "DeleteConfirmed",
+    "RelativePath": "Reservation/Delete/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.ReservationController",
+    "Method": "Details",
+    "RelativePath": "Reservation/Details/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.ReservationController",
+    "Method": "Edit",
+    "RelativePath": "Reservation/Edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "LibraryManagmentSystem.Application.Commands.ReservationCommands.UpdateReservationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.Web.Controllers.ReservationController",
+    "Method": "Edit",
+    "RelativePath": "Reservation/Edit/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LibraryManagmentSystem.WebAPI.WeatherForecast, LibraryManagmentSystem.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

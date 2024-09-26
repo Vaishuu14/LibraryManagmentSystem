@@ -1,0 +1,6 @@
+{
+  "LibraryManagmentSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application",
+  "LibraryManagmentSystem.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain",
+  "LibraryManagmentSystem.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure",
+  "LibraryManagmentSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web"
+}
