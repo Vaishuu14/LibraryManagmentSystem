@@ -1426,7 +1426,10 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "LibraryManagmentSystem.Domain.dll": {}
+          "LibraryManagmentSystem.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

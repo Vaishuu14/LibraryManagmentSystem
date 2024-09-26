@@ -15,8 +15,8 @@ namespace LibraryManagmentSystem.Domain.Interfaces
         Task AddAsync(Book book);
         Task UpdateAsync(Book book);
         Task DeleteAsync(int id);
-        int GetTotalBooksAsync();
-        
+        Task<int> GetTotalBooksAsync();
+
 
     }
 }

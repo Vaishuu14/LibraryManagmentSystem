@@ -2,9 +2,8 @@
 using LibraryManagmentSystem.Application.Commands.BookCommands;
 using LibraryManagmentSystem.Application.DTOs;
 using LibraryManagmentSystem.Application.Queries.BookQueries;
-using LibraryManagmentSystem.Domain.Entities;
 using LibraryManagmentSystem.Domain.Interfaces;
-using LibraryManagmentSystem.Web.Controllers;
+using LibraryManagmentSystem.WebAPI.Controllers;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
@@ -12,186 +11,126 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace LibraryManagmentSystem.Tests.Controllers
+namespace LibraryManagmentSystem.Tests
 {
     public class BookControllerTests
     {
-        private readonly Mock<IMediator> _mediatorMock;
-        private readonly Mock<IMapper> _mapperMock;
-        private readonly Mock<IBookRepository> _bookServiceMock;
+        private readonly Mock<IMediator> _mockMediator;
+        private readonly Mock<IMapper> _mockMapper;
+        private readonly Mock<IBookRepository> _mockBookRepository;
         private readonly BookController _controller;
-       
-
 
         public BookControllerTests()
         {
-            _mediatorMock = new Mock<IMediator>();
-            _mapperMock = new Mock<IMapper>();
-            _bookServiceMock = new Mock<IBookRepository>();
-            _controller = new BookController(_mediatorMock.Object, _mapperMock.Object, _bookServiceMock.Object);
-
+            _mockMediator = new Mock<IMediator>();
+            _mockMapper = new Mock<IMapper>();
+            _mockBookRepository = new Mock<IBookRepository>();
+            _controller = new BookController(_mockMediator.Object, _mockMapper.Object, _mockBookRepository.Object);
         }
 
         [Fact]
-        public async Task Index_ReturnsPartialView_WithBooks()
+        public async Task GetBooks_ReturnsOkResult_WithListOfBooks()
         {
             // Arrange
-            var books = new List<BookDto> { new BookDto { Id = 1, Title = "Test Book" } };
-            _mediatorMock.Setup(m => m.Send(It.IsAny<GetBooksQuery>(), default)).ReturnsAsync(books);
+            var books = new List<BookDto>
+            {
+                new BookDto { Id = 1, Title = "Book 1", Author = "Author 1" },
+                new BookDto { Id = 2, Title = "Book 2", Author = "Author 2" }
+            };
+
+            _mockMediator.Setup(m => m.Send(It.IsAny<GetBooksQuery>(), default))
+                         .ReturnsAsync(books);
 
             // Act
-            var result = await _controller.Index();
+            var result = await _controller.GetBooks();
 
             // Assert
-            var viewResult = Assert.IsType<PartialViewResult>(result);
-            Assert.Equal("Index", viewResult.ViewName);
-            Assert.Equal(books, viewResult.Model);
+            var okResult = Assert.IsType<OkObjectResult>(result);
+            var returnBooks = Assert.IsType<List<BookDto>>(okResult.Value);
+            Assert.Equal(2, returnBooks.Count);
         }
 
-        //[Fact]
-        //public void Create_ReturnsView()
-        //{
-        //    // Act
-        //    var result = _controller.Create();
-
-        //    // Assert
-        //    var viewResult = Assert.IsType<ViewResult>(result);
-        //    Assert.Null(viewResult.Model);
-        //}
-
-
-       
-
-
-        //[Fact]
-        //public async Task Create_Post_InvalidModel_ReturnsView()
-        //{
-        //    // Arrange
-        //    var command = new CreateBookCommand();
-        //    _controller.ModelState.AddModelError("Title", "Required");
-
-        //    // Act
-        //    var result = await _controller.Create(command);
-
-        //    // Assert
-        //    var viewResult = Assert.IsType<ViewResult>(result);
-        //    Assert.Equal(command, viewResult.Model);
-        //}
-
-        
-
         [Fact]
-        public async Task Edit_Post_InvalidModel_ReturnsView()
+        public async Task DetailsOfBook_ReturnsOkResult_WithBook()
         {
             // Arrange
-            var command = new UpdateBookCommand { Id = 1, Title = "Invalid Book" };
-            _controller.ModelState.AddModelError("Title", "The Title field is required."); // Simulate invalid model state
+            var book = new BookDto { Id = 1, Title = "Book 1", Author = "Author 1" };
+
+            _mockMediator.Setup(m => m.Send(It.IsAny<GetBookByIdQuery>(), default))
+                         .ReturnsAsync(book);
 
             // Act
-            var result = await _controller.Edit(command);
+            var result = await _controller.DetailsOfBook(1);
 
             // Assert
-            var viewResult = Assert.IsType<ViewResult>(result);
-            var model = Assert.IsAssignableFrom<UpdateBookCommand>(viewResult.Model);
-            Assert.Equal(command.Title, model.Title);
+            var okResult = Assert.IsType<OkObjectResult>(result);
+            var returnBook = Assert.IsType<BookDto>(okResult.Value);
+            Assert.Equal(1, returnBook.Id);
         }
 
-        
-
         [Fact]
-        public async Task Edit_ReturnsNotFound_WhenBookDoesNotExist()
+        public async Task DetailsOfBook_ReturnsNotFound_WhenBookDoesNotExist()
         {
             // Arrange
-            var bookId = 1;
-
-            _mediatorMock.Setup(m => m.Send(It.IsAny<GetBookByIdQuery>(), default))
+            _mockMediator.Setup(m => m.Send(It.IsAny<GetBookByIdQuery>(), default))
                          .ReturnsAsync((BookDto)null);
 
             // Act
-            var result = await _controller.Edit(bookId);
+            var result = await _controller.DetailsOfBook(1);
 
             // Assert
             Assert.IsType<NotFoundResult>(result);
         }
 
         [Fact]
-        public async Task Delete_ReturnsViewResult_WithBook_WhenBookExists()
+        public async Task CreateBook_ReturnsCreatedAtActionResult()
         {
             // Arrange
-            var bookId = 1;
-            var bookDto = new BookDto { Id = bookId, Title = "Test Book" };
+            var command = new CreateBookCommand { Title = "New Book", Author = "New Author" };
+            var createdBook = new BookDto { Id = 1, Title = "New Book", Author = "New Author" };
 
-            _mediatorMock.Setup(m => m.Send(It.IsAny<GetBookByIdQuery>(), default))
-                         .ReturnsAsync(bookDto);
+            _mockMediator.Setup(m => m.Send(It.IsAny<CreateBookCommand>(), default))
+                         .ReturnsAsync(createdBook);
 
             // Act
-            var result = await _controller.Delete(bookId);
+            var result = await _controller.CreateBook(command);
 
             // Assert
-            var viewResult = Assert.IsType<ViewResult>(result);
-            var model = Assert.IsAssignableFrom<BookDto>(viewResult.Model);
-            Assert.Equal(bookDto.Id, model.Id);
-            Assert.Equal(bookDto.Title, model.Title);
+            var createdAtActionResult = Assert.IsType<CreatedAtActionResult>(result);
+            var returnBook = Assert.IsType<BookDto>(createdAtActionResult.Value);
+            Assert.Equal(1, returnBook.Id);
         }
 
         [Fact]
-        public async Task Delete_ReturnsNotFoundResult_WhenBookDoesNotExist()
+        public async Task EditBook_ReturnsNoContent()
         {
             // Arrange
-            var bookId = 10;
+            var command = new UpdateBookCommand { Id = 1, Title = "Updated Book", Author = "Updated Author" };
 
-            _mediatorMock.Setup(m => m.Send(It.IsAny<GetBookByIdQuery>(), default))
-                         .ReturnsAsync((BookDto)null);
+            _mockMediator.Setup(m => m.Send(It.IsAny<UpdateBookCommand>(), default))
+                         .ReturnsAsync(Unit.Value);
 
             // Act
-            var result = await _controller.Delete(bookId);
+            var result = await _controller.EditBook(command);
 
             // Assert
-            Assert.IsType<NotFoundResult>(result);
+            Assert.IsType<NoContentResult>(result);
         }
 
         [Fact]
-        public async Task Details_ReturnsViewResult_WithBookDto_WhenBookExists()
+        public async Task DeleteBook_ReturnsNoContent()
         {
             // Arrange
-            var bookId = 1;
-            var bookDto = new BookDto { Id = bookId, Title = "Test Book" };
+            var command = new DeleteBookCommand(1);
 
-            // Mock the mediator to return the book DTO
-            _mediatorMock.Setup(m => m.Send(It.IsAny<GetBookByIdQuery>(), default))
-                         .ReturnsAsync(bookDto);
+            _mockMediator.Setup(m => m.Send(It.IsAny<DeleteBookCommand>(), default))
+                         .ReturnsAsync(Unit.Value);
 
             // Act
-            var result = await _controller.Details(bookId);
+            var result = await _controller.DeleteBook(1);
 
             // Assert
-            var viewResult = Assert.IsType<ViewResult>(result);
-            var model = Assert.IsAssignableFrom<BookDto>(viewResult.Model);
-            Assert.Equal(bookDto.Id, model.Id);
-            Assert.Equal(bookDto.Title, model.Title);
+            Assert.IsType<NoContentResult>(result);
         }
-
-        [Fact]
-        public async Task Details_ReturnsNotFoundResult_WhenBookDoesNotExist()
-        {
-            // Arrange
-            var bookId = 10; // ID that does not exist
-
-            // Mock the mediator to return null for the non-existent book
-            _mediatorMock.Setup(m => m.Send(It.IsAny<GetBookByIdQuery>(), default))
-                         .ReturnsAsync((BookDto)null);
-
-            // Act
-            var result = await _controller.Details(bookId);
-
-            // Assert
-            Assert.IsType<NotFoundResult>(result);
-        }
-
-
-
-
-
-
     }
 }

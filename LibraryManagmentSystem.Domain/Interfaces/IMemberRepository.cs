@@ -15,7 +15,7 @@ namespace LibraryManagmentSystem.Domain.Interfaces
         Task AddAsync(Member member);
         Task UpdateAsync(Member member);
         Task DeleteAsync(int id);
-        int GetTotalMembersAsync();
+        Task<int> GetTotalMembersAsync();
 
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Tests\\LibraryManagmentSystem.Tests.csproj": {}
+    "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Tests\\LibraryManagmentSystem.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj": {
+    "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj",
         "projectName": "LibraryManagmentSystem.Application",
-        "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj",
-        "packagesPath": "C:\\Users\\Austraxpc46\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\obj\\",
+        "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj",
+        "packagesPath": "C:\\Users\\Vaishnavi S\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Austraxpc46\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vaishnavi S\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,11 +29,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj"
+              "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj"
               },
-              "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj"
+              "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj"
               }
             }
           }
@@ -154,21 +154,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
+    "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
         "projectName": "LibraryManagmentSystem.Domain",
-        "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
-        "packagesPath": "C:\\Users\\Austraxpc46\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
+        "packagesPath": "C:\\Users\\Vaishnavi S\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Austraxpc46\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vaishnavi S\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -297,21 +297,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj": {
+    "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj",
         "projectName": "LibraryManagmentSystem.Infrastructure",
-        "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Austraxpc46\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Vaishnavi S\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Austraxpc46\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vaishnavi S\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -326,8 +326,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj"
+              "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj"
               }
             }
           }
@@ -432,21 +432,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Tests\\LibraryManagmentSystem.Tests.csproj": {
+    "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Tests\\LibraryManagmentSystem.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Tests\\LibraryManagmentSystem.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Tests\\LibraryManagmentSystem.Tests.csproj",
         "projectName": "LibraryManagmentSystem.Tests",
-        "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Tests\\LibraryManagmentSystem.Tests.csproj",
-        "packagesPath": "C:\\Users\\Austraxpc46\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Tests\\obj\\",
+        "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Tests\\LibraryManagmentSystem.Tests.csproj",
+        "packagesPath": "C:\\Users\\Vaishnavi S\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Austraxpc46\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vaishnavi S\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -461,17 +461,20 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj": {
-                "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj"
+              "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj": {
+                "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj"
               },
-              "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj"
+              "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj"
               },
-              "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj"
+              "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj"
               },
-              "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj": {
-                "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj"
+              "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj": {
+                "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj"
+              },
+              "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj": {
+                "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj"
               }
             }
           }
@@ -491,21 +494,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.0, )"
             },
-            "FluentValidation": {
+            "FluentValidation.AspNetCore": {
               "target": "Package",
-              "version": "[11.10.0, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.4.1, )"
+              "version": "[11.3.0, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -515,15 +510,7 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
-            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
-              "target": "Package",
-              "version": "[8.0.8, )"
-            },
             "Microsoft.AspNetCore.Mvc.Testing": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.AspNetCore.Owin": {
               "target": "Package",
               "version": "[8.0.8, )"
             },
@@ -533,43 +520,13 @@
               "target": "Package",
               "version": "[8.0.8, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.8, )"
-            },
-            "Microsoft.IdentityModel.Tokens": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.8.0, )"
             },
-            "Microsoft.Owin.Cors": {
-              "target": "Package",
-              "version": "[4.2.2, )"
-            },
-            "Microsoft.Owin.Host.SystemWeb": {
-              "target": "Package",
-              "version": "[4.2.2, )"
-            },
-            "Microsoft.Owin.Security.OAuth": {
-              "target": "Package",
-              "version": "[4.2.2, )"
-            },
             "Moq": {
               "target": "Package",
               "version": "[4.20.72, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -600,21 +557,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj": {
+    "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj",
-        "projectName": "LibraryManagmentSystem.Web",
-        "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj",
-        "packagesPath": "C:\\Users\\Austraxpc46\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Web\\obj\\",
+        "projectUniqueName": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj",
+        "projectName": "LibraryManagmentSystem.WebAPI",
+        "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Vaishnavi S\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Austraxpc46\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vaishnavi S\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -629,14 +586,157 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj": {
-                "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj"
+              "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj": {
+                "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj"
               },
-              "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj"
+              "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj"
               },
-              "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Austraxpc46\\source\\repos\\LibrarySystem\\LibraryManagmentSystem\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj"
+              "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj"
+              },
+              "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj": {
+                "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Owin": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Owin.Cors": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Microsoft.Owin.Host.SystemWeb": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Microsoft.Owin.Security.OAuth": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj",
+        "projectName": "LibraryManagmentSystem.Web",
+        "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj",
+        "packagesPath": "C:\\Users\\Vaishnavi S\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vaishnavi S\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj": {
+                "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj"
+              },
+              "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj"
+              },
+              "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj"
               }
             }
           }
@@ -748,7 +848,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

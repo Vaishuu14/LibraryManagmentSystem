@@ -87,18 +87,16 @@ namespace LibraryManagmentSystem.Web.Controllers
         }
 
 
-        [Authorize(Roles = "Admin")]
-        public IActionResult AdminDashboard()
+        [Authorize]
+        public async Task<IActionResult> AdminDashboard()
         {
-            var totalBooks =  _bookRepository.GetTotalBooksAsync();
-            var totalMembers =  _memberRepository.GetTotalMembersAsync();
-            
+            var totalBooks = await _bookRepository.GetTotalBooksAsync();
+            var totalMembers = await _memberRepository.GetTotalMembersAsync();
 
             var viewModel = new AdminDashboardView
             {
                 TotalBooks = totalBooks,
                 TotalMembers = totalMembers,
-               
             };
 
             return View(viewModel);

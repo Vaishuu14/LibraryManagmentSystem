@@ -9,131 +9,131 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LibraryManagmentSystem.Web
 build_property.RootNamespace = LibraryManagmentSystem.Web
-build_property.ProjectDir = C:\Users\Austraxpc46\Source\Repos\new\LibraryManagmentSystem\LibraryManagmentSystem.Web\
+build_property.ProjectDir = C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Austraxpc46\Source\Repos\new\LibraryManagmentSystem\LibraryManagmentSystem.Web
+build_property.MSBuildProjectDirectory = C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Book/Create.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Book/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Book/Delete.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Book/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Book/Details.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Book/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Book/Edit.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Book/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Book/Index.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Book/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Home/AdminDashboard.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Home/AdminDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbkRhc2hib2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Home/Index.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Home/IssueBook.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Home/IssueBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJc3N1ZUJvb2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Home/Login.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Home/Logout.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Home/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Home/MemberBookDetails.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Home/MemberBookDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW1iZXJCb29rRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Home/MemberDashboard.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Home/MemberDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNZW1iZXJEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Home/Privacy.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Home/Registration.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Home/Registration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Member/Create.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Member/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Member/Delete.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Member/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Member/Details.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Member/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Member/Edit.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Member/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Member/Index.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Member/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Reservation/Create.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Reservation/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Reservation/Delete.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Reservation/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Reservation/Details.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Reservation/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Reservation/Edit.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Reservation/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Reservation/Index.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Reservation/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Shared/Error.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Shared/_LayoutWithoutNavBar.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Shared/_LayoutWithoutNavBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRXaXRob3V0TmF2QmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/_ViewImports.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/_ViewStart.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Austraxpc46/Source/Repos/new/LibraryManagmentSystem/LibraryManagmentSystem.Web/Views/Shared/_Layout.cshtml]
+[C:/Users/Vaishnavi S/Source/Repos/NewBarear/LibraryManagmentSystem.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3jzfrpwrq9

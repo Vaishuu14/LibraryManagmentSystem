@@ -6149,19 +6149,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Austraxpc46\\.nuget\\packages\\": {}
+    "C:\\Users\\Vaishnavi S\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Austraxpc46\\Source\\Repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
       "projectName": "LibraryManagmentSystem.Domain",
-      "projectPath": "C:\\Users\\Austraxpc46\\Source\\Repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
-      "packagesPath": "C:\\Users\\Austraxpc46\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Austraxpc46\\Source\\Repos\\new\\LibraryManagmentSystem\\LibraryManagmentSystem.Domain\\obj\\",
+      "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
+      "packagesPath": "C:\\Users\\Vaishnavi S\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Austraxpc46\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Vaishnavi S\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6290,7 +6290,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

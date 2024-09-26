@@ -146,6 +146,8 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const sidebarLinks = document.querySelectorAll("#sidebar a.nav-link");
+            const token = localStorage.getItem('jwtToken'); // Retrieve the token from localStorage
+
             sidebarLinks.forEach(link => {
                 link.addEventListener("click", function (event) {
                     event.preventDefault();
@@ -155,33 +157,35 @@
                         section.classList.remove("active");
                     });
 
+                    const headers = {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    };
+
                     if (targetId === "book-management-content") {
-                        fetch("/Book")
+                        fetch("/Book", { headers })
                             .then(response => response.text())
                             .then(html => {
                                 document.getElementById(targetId).innerHTML = html;
                                 document.getElementById(targetId).classList.add("active");
-                                debugger;
                                 $.getScript("/js/book.js");
                             })
                             .catch(error => console.error('Error loading content:', error));
                     } else if (targetId === "member-management-content") {
-                        fetch("/Member")
+                        fetch("/Member", { headers })
                             .then(response => response.text())
                             .then(html => {
                                 document.getElementById(targetId).innerHTML = html;
                                 document.getElementById(targetId).classList.add("active");
-                                 debugger;
                                 $.getScript("/js/member.js");
                             })
                             .catch(error => console.error('Error loading content:', error));
                     } else if (targetId === "reservation-management-content") {
-                        fetch("/Reservation")
+                        fetch("/Reservation", { headers })
                             .then(response => response.text())
                             .then(html => {
                                 document.getElementById(targetId).innerHTML = html;
                                 document.getElementById(targetId).classList.add("active");
-                                 debugger;
                                 $.getScript("/js/reservation.js");
                             })
                             .catch(error => console.error('Error loading content:', error));
@@ -196,5 +200,6 @@
                 });
             });
         });
+
     </script>
 }

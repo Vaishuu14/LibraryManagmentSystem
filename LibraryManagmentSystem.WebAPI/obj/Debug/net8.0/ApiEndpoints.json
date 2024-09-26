@@ -1,12 +1,18 @@
 [
   {
     "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.AuthController",
-    "Method": "GenerateToken",
+    "Method": "Login",
     "RelativePath": "api/Auth/token",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "LibraryManagmentSystem.Domain.Entities.Login",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -232,9 +238,29 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.ValuesController",
-    "Method": "Get",
-    "RelativePath": "api/Values",
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.TestController",
+    "Method": "GetResource1",
+    "RelativePath": "api/Test/api/test/resource1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.TestController",
+    "Method": "GetResource2",
+    "RelativePath": "api/Test/api/test/resource2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagmentSystem.WebAPI.Controllers.TestController",
+    "Method": "GetResource3",
+    "RelativePath": "api/Test/api/test/resource3",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using LibraryManagmentSystem.Application.Commands.ReservationCommands;
-using LibraryManagmentSystem.Application.DTOs;
 using LibraryManagmentSystem.Application.Queries.ReservationQueries;
+using LibraryManagmentSystem.Application.DTOs;
 using LibraryManagmentSystem.Domain.Interfaces;
-using LibraryManagmentSystem.Web.Controllers;
+using LibraryManagmentSystem.WebAPI.Controllers;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
@@ -11,169 +11,105 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace LibraryManagmentSystem.Tests.Controllers
+namespace LibraryManagmentSystem.Tests
 {
     public class ReservationControllerTests
     {
-        private readonly Mock<IMediator> _mediatorMock;
-        private readonly Mock<IMapper> _mapperMock;
-        private readonly Mock<IReservationRepository> _reservationServiceMock; // Add this line
+        private readonly Mock<IMediator> _mockMediator;
+        private readonly Mock<IMapper> _mockMapper;
+        private readonly Mock<IReservationRepository> _mockReservationRepository;
         private readonly ReservationController _controller;
 
         public ReservationControllerTests()
         {
-            _mediatorMock = new Mock<IMediator>();
-            _mapperMock = new Mock<IMapper>();
-            _reservationServiceMock = new Mock<IReservationRepository>(); // Initialize the mock
-            _controller = new ReservationController(_mediatorMock.Object, _mapperMock.Object, _reservationServiceMock.Object); // Pass the mock
+            _mockMediator = new Mock<IMediator>();
+            _mockMapper = new Mock<IMapper>();
+            _mockReservationRepository = new Mock<IReservationRepository>();
+            _controller = new ReservationController(_mockMediator.Object, _mockMapper.Object, _mockReservationRepository.Object);
         }
 
         [Fact]
-        public async Task Index_ReturnsPartialView_WithReservations()
+        public async Task GetReservations_ReturnsOkResult_WithListOfReservations()
         {
             // Arrange
-            var reservations = new List<ReservationDto> { new ReservationDto { Id = 1, BookTitle = "Test Book" } };
-            _mediatorMock.Setup(m => m.Send(It.IsAny<GetReservationsQuery>(), default)).ReturnsAsync(reservations);
+            var reservations = new List<ReservationDto>
+            {
+                new ReservationDto { Id = 1, MemberId = 1, BookId = 1, ReservedDate = DateTime.Now },
+                new ReservationDto { Id = 2, MemberId = 2, BookId = 2, ReservedDate = DateTime.Now }
+            };
+
+            _mockMediator.Setup(m => m.Send(It.IsAny<GetReservationsQuery>(), default))
+                         .ReturnsAsync(reservations);
 
             // Act
-            var result = await _controller.Index();
+            var result = await _controller.GetReservations();
 
             // Assert
-            var partialViewResult = Assert.IsType<PartialViewResult>(result);
-            Assert.Equal("Index", partialViewResult.ViewName);
-            Assert.Equal(reservations, partialViewResult.Model);
-        }
-
-        //[Fact]
-        //public void Create_ReturnsView()
-        //{
-        //    // Act
-        //    var result = _controller.Create();
-
-        //    // Assert
-        //    var viewResult = Assert.IsType<ViewResult>(result);
-        //    Assert.Null(viewResult.Model);
-        //}
-
-        //[Fact]
-        //public async Task Create_Post_InvalidModel_ReturnsView()
-        //{
-        //    // Arrange
-        //    var command = new CreateReservationCommand();
-        //    _controller.ModelState.AddModelError("BookId", "Required");
-
-        //    // Act
-        //    var result = await _controller.Create(command);
-
-        //    // Assert
-        //    var viewResult = Assert.IsType<ViewResult>(result);
-        //    Assert.Equal(command, viewResult.Model);
-        //}
-
-        [Fact]
-        public async Task Edit_Post_InvalidModel_ReturnsView()
-        {
-            // Arrange
-            var command = new UpdateReservationCommand { Id = 1, BookId = 1 };
-            _controller.ModelState.AddModelError("BookId", "The BookId field is required."); // Simulate invalid model state
-
-            // Act
-            var result = await _controller.Edit(command);
-
-            // Assert
-            var viewResult = Assert.IsType<ViewResult>(result);
-            var model = Assert.IsAssignableFrom<UpdateReservationCommand>(viewResult.Model);
-            Assert.Equal(command.BookId, model.BookId);
+            var okResult = Assert.IsType<OkObjectResult>(result);
+            var returnReservations = Assert.IsType<List<ReservationDto>>(okResult.Value);
+            Assert.Equal(2, returnReservations.Count);
         }
 
         [Fact]
-        public async Task Edit_ReturnsNotFound_WhenReservationDoesNotExist()
+        public async Task DetailsOfReservation_ReturnsOkResult_WithReservation()
         {
             // Arrange
-            var reservationId = 1;
+            var reservation = new ReservationDto { Id = 1, MemberId = 1, BookId = 1, ReservedDate = DateTime.Now };
 
-            _mediatorMock.Setup(m => m.Send(It.IsAny<GetReservationByIdQuery>(), default))
-                         .ReturnsAsync((ReservationDto)null);
+            _mockMediator.Setup(m => m.Send(It.IsAny<GetReservationByIdQuery>(), default))
+                         .ReturnsAsync(reservation);
 
             // Act
-            var result = await _controller.Edit(reservationId);
+            var result = await _controller.DetailsOfReservation(1);
 
             // Assert
-            Assert.IsType<NotFoundResult>(result);
+            var okResult = Assert.IsType<OkObjectResult>(result);
+            var returnReservation = Assert.IsType<ReservationDto>(okResult.Value);
+            Assert.Equal(1, returnReservation.Id);
         }
 
         [Fact]
-        public async Task Delete_ReturnsViewResult_WithReservation_WhenReservationExists()
+        public async Task CreateReservation_ReturnsBadRequest_WhenModelStateIsInvalid()
         {
             // Arrange
-            var reservationId = 1;
-            var reservationDto = new ReservationDto { Id = reservationId, BookTitle = "Test Book" };
-
-            _mediatorMock.Setup(m => m.Send(It.IsAny<GetReservationByIdQuery>(), default))
-                         .ReturnsAsync(reservationDto);
+            var command = new CreateReservationCommand { MemberId = 0, BookId = 0 }; // Invalid command
+            _controller.ModelState.AddModelError("MemberId", "MemberId is required.");
 
             // Act
-            var result = await _controller.Delete(reservationId);
+            var result = await _controller.CreateReservation(command);
 
             // Assert
-            var viewResult = Assert.IsType<ViewResult>(result);
-            var model = Assert.IsAssignableFrom<ReservationDto>(viewResult.Model);
-            Assert.Equal(reservationDto.Id, model.Id);
-            Assert.Equal(reservationDto.BookTitle, model.BookTitle);
+            var badRequestResult = Assert.IsType<BadRequestObjectResult>(result);
+            Assert.IsType<SerializableError>(badRequestResult.Value);
         }
 
         [Fact]
-        public async Task Delete_ReturnsNotFoundResult_WhenReservationDoesNotExist()
+        public async Task EditReservation_ReturnsBadRequest_WhenModelStateIsInvalid()
         {
             // Arrange
-            var reservationId = 10;
-
-            _mediatorMock.Setup(m => m.Send(It.IsAny<GetReservationByIdQuery>(), default))
-                         .ReturnsAsync((ReservationDto)null);
+            var command = new UpdateReservationCommand { Id = 1, MemberId = 0, BookId = 0 }; // Invalid command
+            _controller.ModelState.AddModelError("MemberId", "MemberId is required.");
 
             // Act
-            var result = await _controller.Delete(reservationId);
+            var result = await _controller.EditReservation(command);
 
             // Assert
-            Assert.IsType<NotFoundResult>(result);
+            var badRequestResult = Assert.IsType<BadRequestObjectResult>(result);
+            Assert.IsType<SerializableError>(badRequestResult.Value);
         }
 
         [Fact]
-        public async Task Details_ReturnsViewResult_WithReservationDto_WhenReservationExists()
+        public async Task DeleteReservation_ReturnsNoContent()
         {
             // Arrange
-            var reservationId = 1;
-            var reservationDto = new ReservationDto { Id = reservationId, BookTitle = "Test Book" };
-
-            // Mock the mediator to return the reservation DTO
-            _mediatorMock.Setup(m => m.Send(It.IsAny<GetReservationByIdQuery>(), default))
-                         .ReturnsAsync(reservationDto);
+            _mockMediator.Setup(m => m.Send(It.IsAny<CancelReservationCommand>(), default))
+                         .ReturnsAsync(MediatR.Unit.Value);
 
             // Act
-            var result = await _controller.Details(reservationId);
+            var result = await _controller.DeleteReservation(1);
 
             // Assert
-            var viewResult = Assert.IsType<ViewResult>(result);
-            var model = Assert.IsAssignableFrom<ReservationDto>(viewResult.Model);
-            Assert.Equal(reservationDto.Id, model.Id);
-            Assert.Equal(reservationDto.BookTitle, model.BookTitle);
-        }
-
-        [Fact]
-        public async Task Details_ReturnsNotFoundResult_WhenReservationDoesNotExist()
-        {
-            // Arrange
-            var reservationId = 10; // ID that does not exist
-
-            // Mock the mediator to return null for the non-existent reservation
-            _mediatorMock.Setup(m => m.Send(It.IsAny<GetReservationByIdQuery>(), default))
-                         .ReturnsAsync((ReservationDto)null);
-
-            // Act
-            var result = await _controller.Details(reservationId);
-
-            // Assert
-            Assert.IsType<NotFoundResult>(result);
+            Assert.IsType<NoContentResult>(result);
         }
     }
 }

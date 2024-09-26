@@ -51,12 +51,11 @@ namespace LibraryManagmentSystem.Infrastructure.Repositories
                 await _context.SaveChangesAsync();
             }
         }
-        public int GetTotalBooksAsync()
+        public async Task<int> GetTotalBooksAsync()
         {
-            return  _context.Books.Count();
+            return await _context.Books.CountAsync();
         }
 
-       
 
     }
 }

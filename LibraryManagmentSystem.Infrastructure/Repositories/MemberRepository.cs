@@ -52,9 +52,9 @@ namespace LibraryManagmentSystem.Infrastructure.Repositories
             }
         }
 
-        public int GetTotalMembersAsync()
+        public async Task<int> GetTotalMembersAsync()
         {
-            return  _context.Members.Count();
+            return await _context.Members.CountAsync();
         }
 
 

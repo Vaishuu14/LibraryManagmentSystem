@@ -73,6 +73,15 @@ builder.Services.AddSingleton(provider =>
     return config.CreateMapper();
 });
 
+
+// Configure authorization services
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("Admin", policy => policy.RequireRole("Admin"));
+    options.AddPolicy("Member", policy => policy.RequireRole("Member"));
+});
+
+
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IMemberRepository, MemberRepository>();
 builder.Services.AddScoped<ILoanRepository, LoanRepository>();

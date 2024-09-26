@@ -58,3 +58,18 @@ C:\Users\Austraxpc46\Source\Repos\new\LibraryManagmentSystem\LibraryManagmentSys
 C:\Users\Austraxpc46\Source\Repos\new\LibraryManagmentSystem\LibraryManagmentSystem.Domain\obj\Debug\net8.0\LibraryManagmentSystem.Domain.pdb
 C:\Users\Austraxpc46\Source\Repos\new\LibraryManagmentSystem\LibraryManagmentSystem.Domain\obj\Debug\net8.0\LibraryManagmentSystem.Domain.genruntimeconfig.cache
 C:\Users\Austraxpc46\Source\Repos\new\LibraryManagmentSystem\LibraryManagmentSystem.Domain\obj\Debug\net8.0\ref\LibraryManagmentSystem.Domain.dll
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Domain\bin\Debug\net8.0\LibraryManagmentSystem.Domain.deps.json
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Domain\bin\Debug\net8.0\LibraryManagmentSystem.Domain.runtimeconfig.json
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Domain\bin\Debug\net8.0\LibraryManagmentSystem.Domain.dll
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Domain\bin\Debug\net8.0\LibraryManagmentSystem.Domain.pdb
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Domain\obj\Debug\net8.0\LibraryManagmentSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Domain\obj\Debug\net8.0\LibraryManagmentSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Domain\obj\Debug\net8.0\LibraryManagmentSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Domain\obj\Debug\net8.0\LibraryManagmentSystem.Domain.AssemblyInfo.cs
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Domain\obj\Debug\net8.0\LibraryManagmentSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Domain\obj\Debug\net8.0\LibraryManagmentSystem.Domain.sourcelink.json
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Domain\obj\Debug\net8.0\LibraryManagmentSystem.Domain.dll
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Domain\obj\Debug\net8.0\refint\LibraryManagmentSystem.Domain.dll
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Domain\obj\Debug\net8.0\LibraryManagmentSystem.Domain.pdb
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Domain\obj\Debug\net8.0\LibraryManagmentSystem.Domain.genruntimeconfig.cache
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Domain\obj\Debug\net8.0\ref\LibraryManagmentSystem.Domain.dll

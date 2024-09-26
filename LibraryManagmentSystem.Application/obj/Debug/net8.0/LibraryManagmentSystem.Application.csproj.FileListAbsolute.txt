@@ -76,3 +76,23 @@ C:\Users\Austraxpc46\Source\Repos\new\LibraryManagmentSystem\LibraryManagmentSys
 C:\Users\Austraxpc46\Source\Repos\new\LibraryManagmentSystem\LibraryManagmentSystem.Application\obj\Debug\net8.0\LibraryManagmentSystem.Application.pdb
 C:\Users\Austraxpc46\Source\Repos\new\LibraryManagmentSystem\LibraryManagmentSystem.Application\obj\Debug\net8.0\LibraryManagmentSystem.Application.genruntimeconfig.cache
 C:\Users\Austraxpc46\Source\Repos\new\LibraryManagmentSystem\LibraryManagmentSystem.Application\obj\Debug\net8.0\ref\LibraryManagmentSystem.Application.dll
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\bin\Debug\net8.0\LibraryManagmentSystem.Application.deps.json
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\bin\Debug\net8.0\LibraryManagmentSystem.Application.runtimeconfig.json
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\bin\Debug\net8.0\LibraryManagmentSystem.Application.dll
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\bin\Debug\net8.0\LibraryManagmentSystem.Application.pdb
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\bin\Debug\net8.0\LibraryManagmentSystem.Domain.dll
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\bin\Debug\net8.0\LibraryManagmentSystem.Infrastructure.dll
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\bin\Debug\net8.0\LibraryManagmentSystem.Domain.pdb
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\bin\Debug\net8.0\LibraryManagmentSystem.Infrastructure.pdb
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\obj\Debug\net8.0\LibraryManagmentSystem.Application.csproj.AssemblyReference.cache
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\obj\Debug\net8.0\LibraryManagmentSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\obj\Debug\net8.0\LibraryManagmentSystem.Application.AssemblyInfoInputs.cache
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\obj\Debug\net8.0\LibraryManagmentSystem.Application.AssemblyInfo.cs
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\obj\Debug\net8.0\LibraryManagmentSystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\obj\Debug\net8.0\LibraryManagmentSystem.Application.sourcelink.json
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\obj\Debug\net8.0\LibraryM.A93A0918.Up2Date
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\obj\Debug\net8.0\LibraryManagmentSystem.Application.dll
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\obj\Debug\net8.0\refint\LibraryManagmentSystem.Application.dll
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\obj\Debug\net8.0\LibraryManagmentSystem.Application.pdb
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\obj\Debug\net8.0\LibraryManagmentSystem.Application.genruntimeconfig.cache
+C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Application\obj\Debug\net8.0\ref\LibraryManagmentSystem.Application.dll
