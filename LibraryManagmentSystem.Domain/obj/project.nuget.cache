@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yVtLwYZkZ/A=",
+  "dgSpecHash": "SZsb5a3zXMM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vaishnavi S\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Vaishnavi S\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

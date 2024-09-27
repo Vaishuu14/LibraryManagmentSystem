@@ -104,7 +104,7 @@ namespace LibraryManagmentSystem.Web.Controllers
 
 
         //new
-        [Authorize(Roles = "Member")]
+       // [Authorize(Roles = "Member")]
         [HttpGet]
         public async Task<IActionResult> MemberDashboard()
         {

@@ -13377,9 +13377,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Tests\\LibraryManagmentSystem.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.Tests\\LibraryManagmentSystem.Tests.csproj",
       "projectName": "LibraryManagmentSystem.Tests",
-      "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Tests\\LibraryManagmentSystem.Tests.csproj",
+      "projectPath": "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.Tests\\LibraryManagmentSystem.Tests.csproj",
       "packagesPath": "C:\\Users\\Vaishnavi S\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Tests\\obj\\",
       "projectStyle": "PackageReference",
@@ -13399,20 +13399,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj": {
-              "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj"
+            "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj": {
+              "projectPath": "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.Application\\LibraryManagmentSystem.Application.csproj"
             },
-            "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
-              "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj"
+            "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
+              "projectPath": "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj"
             },
-            "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj"
+            "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.Infrastructure\\LibraryManagmentSystem.Infrastructure.csproj"
             },
-            "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj": {
-              "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj"
+            "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj": {
+              "projectPath": "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.WebAPI\\LibraryManagmentSystem.WebAPI.csproj"
             },
-            "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj": {
-              "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj"
+            "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj": {
+              "projectPath": "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.Web\\LibraryManagmentSystem.Web.csproj"
             }
           }
         }

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {}
+    "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
+    "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
         "projectName": "LibraryManagmentSystem.Domain",
-        "projectPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
+        "projectPath": "C:\\Users\\Vaishnavi S\\source\\repos\\NewBarear\\LibraryManagmentSystem.Domain\\LibraryManagmentSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\Vaishnavi S\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Vaishnavi S\\Source\\Repos\\NewBarear\\LibraryManagmentSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",

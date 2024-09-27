@@ -25,7 +25,7 @@ namespace LibraryManagmentSystem.WebAPI.Controllers
             _bookService = bookService;
         }
 
-        [Authorize]
+       // [Authorize]
         [HttpGet]
         [Route("list")]
         public async Task<IActionResult> GetBooks()

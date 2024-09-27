@@ -1,6 +1,9 @@
 ﻿const bookUri = 'https://localhost:7207/api/book'; // Update with your actual API endpoint
 let books = [];
 
+// Retrieve the user role from localStorage
+const userRole = localStorage.getItem('userRole');
+
 // Function to get the list of books
 async function getBooks() {
     try {
@@ -158,17 +161,19 @@ function _displayBooks(data) {
         let numberOfCopiesTextNode = document.createTextNode(book.numberOfCopies);
         td5.appendChild(numberOfCopiesTextNode);
 
-        let td6 = tr.insertCell(5);
-        let editButton = document.createElement('button');
-        editButton.innerText = 'Edit';
-        editButton.setAttribute('onclick', `displayEditForm(${book.id})`);
-        td6.appendChild(editButton);
+        if (userRole === 'Admin') {
+            let td6 = tr.insertCell(5);
+            let editButton = document.createElement('button');
+            editButton.innerText = 'Edit';
+            editButton.setAttribute('onclick', `displayEditForm(${book.id})`);
+            td6.appendChild(editButton);
 
-        let td7 = tr.insertCell(6);
-        let deleteButton = document.createElement('button');
-        deleteButton.innerText = 'Delete';
-        deleteButton.setAttribute('onclick', `deleteBook(${book.id})`);
-        td7.appendChild(deleteButton);
+            let td7 = tr.insertCell(6);
+            let deleteButton = document.createElement('button');
+            deleteButton.innerText = 'Delete';
+            deleteButton.setAttribute('onclick', `deleteBook(${book.id})`);
+            td7.appendChild(deleteButton);
+        }
     });
 
     const counter = document.getElementById('counter');
