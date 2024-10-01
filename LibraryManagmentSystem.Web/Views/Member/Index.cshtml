@@ -14,8 +14,9 @@
 <body>
     <h1>Member Management</h1>
 
-    <h3>Add New Member</h3>
+    
     <form id="addMemberForm" onsubmit="addMember(); return false;">
+        <h5>Add New Member</h5>
         <input type="text" id="add-firstName" placeholder="First Name" required>
         <input type="text" id="add-lastName" placeholder="Last Name" required>
         <input type="email" id="add-email" placeholder="Email" required>
@@ -24,7 +25,7 @@
         <input type="submit" value="Add Member">
     </form>
 
-    <div id="editForm">
+    <div id="editForm" style="display: none;">
         <h3>Edit Member</h3>
         <form onsubmit="updateMember(); return false;">
             <input type="hidden" id="edit-id">

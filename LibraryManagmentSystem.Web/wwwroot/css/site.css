@@ -27,7 +27,7 @@ body {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 500px; /* You must set a specified height */
+    height: 340px; /* You must set a specified height */
     
 }
 
@@ -61,16 +61,17 @@ body {
     color: #f8f9fa !important;
 }
 form {
-color: white;
-width: 50%;
-margin-left: 25%;
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
 }
 .text-muted {
     --bs-text-opacity: 1;
     color: black !important;
 }
 #sidebar {
-    width: 200px; /* Set width as needed */
+    width: 180px; /* Set width as needed */
     height: 100vh; /* Full height of the viewport */
     position: fixed; /* Fixes the sidebar position */
     top: 0;
@@ -141,3 +142,5 @@ margin-left: 25%;
         background-color: #e9ecef;
         border-color: #000;
     }
+
+

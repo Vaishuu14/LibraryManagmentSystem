@@ -8,13 +8,14 @@ h1 {
     color: #333;
 }
 
-h3 {
-    margin-top: 20px;
-    color: #555;
+h5 {
+    text-align:center;
+    color: black;
 }
 
 form {
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 input[type="text"],
@@ -104,4 +105,5 @@ button {
 #counter {
     margin-top: 20px;
     font-weight: bold;
+    color:black;
 }

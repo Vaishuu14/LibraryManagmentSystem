@@ -42,7 +42,7 @@ builder.Services.AddAuthentication(options =>
          ValidIssuer = builder.Configuration["Jwt:Issuer"],
          ValidAudience = builder.Configuration["Jwt:Audience"],
          IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"])),
-         ClockSkew = TimeSpan.Zero
+         //ClockSkew = TimeSpan.Zero
      };
  });
 
@@ -93,14 +93,14 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IJwtTokenManager, JwtTokenManager>();
 
 // Enable CORS (Cross-Origin Resource Sharing)
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowAll",
-        builder => builder
-            .AllowAnyOrigin()
-            .AllowAnyMethod()
-            .AllowAnyHeader());
-});
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("AllowAll",
+//        builder => builder
+//            .AllowAnyOrigin()
+//            .AllowAnyMethod()
+//            .AllowAnyHeader());
+//});
 
 
 var app = builder.Build();
@@ -116,11 +116,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-//app.UseCors(x => x.AllowAnyHeader()
-//.AllowAnyMethod()
-//.WithOrigins("https://localhost:7273"));
+app.UseCors(x => x.AllowAnyHeader()
+.AllowAnyMethod()
+.WithOrigins("https://localhost:7273"));
 
-app.UseCors("AllowAll");
+//app.UseCors("AllowAll");
 
 app.UseAuthentication();
 app.UseAuthorization();

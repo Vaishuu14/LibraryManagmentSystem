@@ -157,13 +157,10 @@
                         section.classList.remove("active");
                     });
 
-                    const headers = {
-                        'Authorization': `Bearer ${token}`,
-                        'Content-Type': 'application/json'
-                    };
+                   
 
                     if (targetId === "book-management-content") {
-                        fetch("/Book", { headers })
+                        fetch("/Book" )
                             .then(response => response.text())
                             .then(html => {
                                 document.getElementById(targetId).innerHTML = html;
@@ -172,7 +169,7 @@
                             })
                             .catch(error => console.error('Error loading content:', error));
                     } else if (targetId === "member-management-content") {
-                        fetch("/Member", { headers })
+                        fetch("/Member")
                             .then(response => response.text())
                             .then(html => {
                                 document.getElementById(targetId).innerHTML = html;
@@ -181,7 +178,7 @@
                             })
                             .catch(error => console.error('Error loading content:', error));
                     } else if (targetId === "reservation-management-content") {
-                        fetch("/Reservation", { headers })
+                        fetch("/Reservation")
                             .then(response => response.text())
                             .then(html => {
                                 document.getElementById(targetId).innerHTML = html;

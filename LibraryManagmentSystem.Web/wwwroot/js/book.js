@@ -3,11 +3,16 @@ let books = [];
 
 // Retrieve the user role from localStorage
 const userRole = localStorage.getItem('userRole');
+const token = localStorage.getItem('jwtToken');
+let headers = {
+    'Authorization': `Bearer ${token}`,
+    'Content-Type': 'application/json'
+};
 
 // Function to get the list of books
 async function getBooks() {
     try {
-        const response = await fetch(`${bookUri}/list`);
+        const response = await fetch(`${bookUri}/list`, { headers });
         const data = await response.json();
         books = data;
         _displayBooks(data);
@@ -35,10 +40,7 @@ async function addBook() {
     try {
         const response = await fetch(`${bookUri}/create`, {
             method: 'POST',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
+            headers: headers,
             body: JSON.stringify(book)
         });
 
@@ -63,13 +65,14 @@ async function addBook() {
 async function deleteBook(id) {
     try {
         const response = await fetch(`${bookUri}/delete/${id}`, {
-            method: 'DELETE'
+            method: 'DELETE',
+            headers: headers
         });
 
         if (response.ok) {
             getBooks();
         } else {
-            console.error('Unable to delete book.');
+            console.error('Unable to delete book. Status:', response.status);
         }
     } catch (error) {
         console.error('Unable to delete book.', error);
@@ -110,10 +113,7 @@ async function updateBook() {
     try {
         const response = await fetch(`${bookUri}/update`, {
             method: 'PUT',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
+            headers: headers,
             body: JSON.stringify(book)
         });
 

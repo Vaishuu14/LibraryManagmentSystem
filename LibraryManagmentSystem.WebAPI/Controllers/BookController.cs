@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace LibraryManagmentSystem.WebAPI.Controllers
 {
-    [Authorize]
+   
     [Route("api/[controller]")]
     [ApiController]
     public class BookController : ControllerBase
@@ -25,7 +25,7 @@ namespace LibraryManagmentSystem.WebAPI.Controllers
             _bookService = bookService;
         }
 
-       // [Authorize]
+        [Authorize]
         [HttpGet]
         [Route("list")]
         public async Task<IActionResult> GetBooks()

@@ -1,6 +1,7 @@
 ﻿const reservationUri = 'https://localhost:7207/api/reservation';
 let reservations = [];
 
+
 async function getReservations() {
     try {
         const response = await fetch(`${reservationUri}/list`);

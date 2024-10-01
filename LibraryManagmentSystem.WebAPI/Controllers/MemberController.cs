@@ -3,6 +3,7 @@ using LibraryManagmentSystem.Application.Commands.MemberCommands;
 using LibraryManagmentSystem.Application.Queries.MemberQueries;
 using LibraryManagmentSystem.Domain.Interfaces;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
@@ -23,6 +24,7 @@ namespace LibraryManagmentSystem.WebAPI.Controllers
             _memberService = memberService;
         }
 
+       
         [HttpGet]
         [Route("list")]
         public async Task<IActionResult> GetMembers()
@@ -31,6 +33,7 @@ namespace LibraryManagmentSystem.WebAPI.Controllers
             return Ok(members);
         }
 
+       
         [HttpGet]
         [Route("details/{id}")]
         public async Task<IActionResult> DetailsOfMember(int id)
@@ -44,6 +47,7 @@ namespace LibraryManagmentSystem.WebAPI.Controllers
             return Ok(result);
         }
 
+        
         [HttpPost]
         [Route("create")]
         public async Task<IActionResult> CreateMember([FromBody] CreateMemberCommand command)
@@ -57,6 +61,7 @@ namespace LibraryManagmentSystem.WebAPI.Controllers
             return CreatedAtAction(nameof(DetailsOfMember), new { id = result.Id }, result);
         }
 
+      
         [HttpPut]
         [Route("update")]
         public async Task<IActionResult> EditMember([FromBody] UpdateMemberCommand command)
@@ -70,6 +75,7 @@ namespace LibraryManagmentSystem.WebAPI.Controllers
             return NoContent();
         }
 
+       
         [HttpDelete]
         [Route("delete/{id}")]
         public async Task<IActionResult> DeleteMember(int id)

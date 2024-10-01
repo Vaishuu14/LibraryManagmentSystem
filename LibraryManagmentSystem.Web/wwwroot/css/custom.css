@@ -67,3 +67,20 @@
     .nav-link:hover {
         color: white;
     }
+.footer[b-3jzfrpwrq9] {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 0px;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+     padding-right: var(--bs-gutter-x, 0); 
+    padding-left: var(--bs-gutter-x, 0); 
+    margin-right: auto;
+    margin-left: auto;
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}

@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace LibraryManagmentSystem.Web.Controllers
@@ -87,7 +88,7 @@ namespace LibraryManagmentSystem.Web.Controllers
         }
 
 
-        [Authorize]
+       // [Authorize]
         public async Task<IActionResult> AdminDashboard()
         {
             var totalBooks = await _bookRepository.GetTotalBooksAsync();
@@ -108,8 +109,10 @@ namespace LibraryManagmentSystem.Web.Controllers
         [HttpGet]
         public async Task<IActionResult> MemberDashboard()
         {
+            
             var books = await _bookRepository.GetAllAsync();
-            return View(books);  // Assuming the view is located at Views/Home/MemberDashboard.cshtml
+            
+            return View(books);  
         }
 
         //new

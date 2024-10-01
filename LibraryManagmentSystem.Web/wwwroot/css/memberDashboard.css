@@ -7,12 +7,22 @@
 
 h1 {
     text-align: center;
-    color: #333;
+    background-color: #4CAF50;
+    color: white;
+    min-width: 100%;
 }
 
 h3 {
-    color: #555;
+    text-align:center;
+    color: black;
     margin-bottom: 10px;
+    margin-top:20px;
+}
+h5 {
+    text-align: right;
+    margin-top: -30px;
+    color: white;
+    margin-right: 10px;
 }
 
 table {
@@ -39,9 +49,10 @@ tr:hover {
 }
 
 #counter {
-    text-align: center;
+    text-align: left;
     font-size: 1.2em;
     margin: 10px 0;
+    margin-left: 90px;
 }
 
 input[type="number"],

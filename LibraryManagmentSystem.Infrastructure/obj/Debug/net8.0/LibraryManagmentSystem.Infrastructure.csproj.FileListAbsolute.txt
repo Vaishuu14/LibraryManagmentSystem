@@ -88,3 +88,21 @@ C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructur
 C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\obj\Debug\net8.0\LibraryManagmentSystem.Infrastructure.pdb
 C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\obj\Debug\net8.0\LibraryManagmentSystem.Infrastructure.genruntimeconfig.cache
 C:\Users\Vaishnavi S\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\obj\Debug\net8.0\ref\LibraryManagmentSystem.Infrastructure.dll
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\bin\Debug\net8.0\LibraryManagmentSystem.Infrastructure.deps.json
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\bin\Debug\net8.0\LibraryManagmentSystem.Infrastructure.runtimeconfig.json
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\bin\Debug\net8.0\LibraryManagmentSystem.Infrastructure.dll
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\bin\Debug\net8.0\LibraryManagmentSystem.Infrastructure.pdb
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\bin\Debug\net8.0\LibraryManagmentSystem.Domain.dll
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\bin\Debug\net8.0\LibraryManagmentSystem.Domain.pdb
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\obj\Debug\net8.0\LibraryManagmentSystem.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\obj\Debug\net8.0\LibraryManagmentSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\obj\Debug\net8.0\LibraryManagmentSystem.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\obj\Debug\net8.0\LibraryManagmentSystem.Infrastructure.AssemblyInfo.cs
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\obj\Debug\net8.0\LibraryManagmentSystem.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\obj\Debug\net8.0\LibraryManagmentSystem.Infrastructure.sourcelink.json
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\obj\Debug\net8.0\LibraryM.551C3908.Up2Date
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\obj\Debug\net8.0\LibraryManagmentSystem.Infrastructure.dll
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\obj\Debug\net8.0\refint\LibraryManagmentSystem.Infrastructure.dll
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\obj\Debug\net8.0\LibraryManagmentSystem.Infrastructure.pdb
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\obj\Debug\net8.0\LibraryManagmentSystem.Infrastructure.genruntimeconfig.cache
+C:\Users\Austraxpc46\Source\Repos\NewBarear\LibraryManagmentSystem.Infrastructure\obj\Debug\net8.0\ref\LibraryManagmentSystem.Infrastructure.dll

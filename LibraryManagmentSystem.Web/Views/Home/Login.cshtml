@@ -14,7 +14,7 @@
 
         .container {
             background-color: #fff;
-            padding: 2em;
+           
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             max-width: 400px;
@@ -98,8 +98,9 @@
                     // Store the token and role in localStorage
                     localStorage.setItem('jwtToken', token);
                     localStorage.setItem('userRole', role);
+                    localStorage.setItem('username', username);
 
-                    alert('Login successful!');
+                    //alert('Login successful!');
 
                     // Redirect based on role
                     if (role === 'Admin') {

@@ -5,19 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Management</title>
     <link rel="stylesheet" href="~/css/book.css" />
-        <script>
-        $(document).ready(function () {
-            debugger;
-            console.log("Partial View Rendered");
-        });
-</script>
- 
+    <script src="~/js/book.js" defer></script> <!-- Ensure book.js is loaded -->
 </head>
 <body>
     <h1>Book Management</h1>
 
-    <h3>Add New Book</h3>
+    
     <form id="addBookForm" onsubmit="addBook(); return false;">
+        <h5>Add New Book</h5>
         <input type="text" id="add-title" placeholder="Book Title" required>
         <input type="text" id="add-author" placeholder="Book Author" required>
         <input type="text" id="add-isbn" placeholder="Book ISBN" required>
@@ -26,7 +21,7 @@
         <input type="submit" value="Add Book">
     </form>
 
-    <div id="editForm">
+    <div id="editForm" style="display: none;">
         <h3>Edit Book</h3>
         <form onsubmit="updateBook(); return false;">
             <input type="hidden" id="edit-id">
@@ -52,17 +47,14 @@
                 <th>Number of Copies</th>
                 <th>Edit</th>
                 <th>Delete</th>
+                @if (User.IsInRole("Admin"))
+                {
+                    <th>Edit</th>
+                    <th>Delete</th>
+                }
             </tr>
         </thead>
         <tbody id="books"></tbody>
     </table>
-
-    @* <input type="button" value="Get Book List" onclick="getBooks()" /> *@
-    <script src="~/js/book.js" defer></script>
-    <script>
-        getReservations(); // Call to load reservations when the page is ready
-    </script>
 </body>
 </html>
-    
-
